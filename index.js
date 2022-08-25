@@ -112,7 +112,7 @@ const generateRandomArray = () => {
 
 const startGen = () => {
   const password = generateRandomArray();
-  let passwordOneArray = password.slice(Math.random(), 16);
+  let passwordOneArray = password.slice(16, 30);
   let passwordOne = passwordOneArray.join("");
   let passwordTwoArray = password.slice(16, 30);
   let passwordTwo = passwordTwoArray.join("");
